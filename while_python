@@ -1,0 +1,15 @@
+#!/usr/bin/python
+#AEE-KCHMAT
+
+#while condition:
+          #instruction 1
+          #     -
+          #instruction n
+
+#exemple while
+mynombre=input ("merci de ne donner ton number pour le tableau de multiplication:")
+mynombre=int(mynombre)
+iteration=0
+while iteration<9:
+ print("",mynombre,"*",iteration+1,"=",mynombre*(iteration+1))
+ iteration=iteration+1
