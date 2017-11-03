@@ -1,0 +1,7 @@
+#!/usr/bin/python
+#lambda arg1, arg2,. : instruction de retour
+# exemple:
+f=lambda i,v: i*v
+g=lambda i:i+i
+print(f(5,2))
+print(g(3))
