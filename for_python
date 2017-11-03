@@ -1,0 +1,8 @@
+#!/usr/bin/python
+#for element in sequence:
+#exemple
+
+i=[0,2,9]
+
+for n in i:
+ print(n-1)
