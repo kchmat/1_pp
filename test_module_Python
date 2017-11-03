@@ -1,0 +1,4 @@
+#!/usr/bin/python
+#test d'import des modules
+import fonction_Python as fp
+fp.multi(5,11)
