@@ -1,0 +1,17 @@
+#!/usr/bin/python
+#Amine E E KCHMAT
+
+#def nom_de_la_fonction(parametre1, parametre2, parametre3, parametreN):
+    # Bloc d'instructions
+def multi(var1=2,var2=10):
+    i=var1
+    n=var2
+    p=1
+    print ("la multiplication de ",i,"jusqu'a",n)
+    while p<n:
+     print ("",i,"*",p,"=",p*i)
+     p +=1
+    return n
+multi()
+i=multi(5,15)
+print("voila tu es le meilleur a retourner ",i)
