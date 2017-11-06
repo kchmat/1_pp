@@ -1,0 +1,17 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+#AEE-AMINE
+#Test erreur generation
+
+assert test
+###########Si le test renvoieTrue, l'exécution se poursuit normalement. Sinon, une exceptionAssertionErrorest levée.
+
+
+annee = input("Saisissez une année supérieure à 0 :")
+try:
+    annee = int(annee) # Conversion de l'année
+    assert annee > 0
+except ValueError:
+    print("Vous n'avez pas saisi un nombre.")
+except AssertionError:
+    print("L'année saisie est inférieure ou égale à 0.")
