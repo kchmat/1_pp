@@ -1,0 +1,26 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+#AEE-AMINE
+#Test red file
+
+#faut importer le module Pickler  pour enregistrer des objets dans des fichier .
+import pickle
+import os
+m="/tmp"
+os.chdir(m)
+monfichier= open("tete","r")
+print("",monfichier)
+contenu=monfichier.read()
+print(contenu)
+monfichier.close()
+
+with open('donnees','wb') as ff:
+   monpickler = pickle.Pickler(ff)
+   monpickler.dump(contenu)
+
+with open('donnees', 'rb') as fichier:
+          mon_depickler = pickle.Unpickler(fichier)
+        # Lecture des objets contenus dans le fichier...
+          score_recupere = mon_depickler.load()
+          print("heeeelo",score_recupere)
+~
