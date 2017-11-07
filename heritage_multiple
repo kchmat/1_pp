@@ -1,0 +1,1 @@
+class MaClasseHeritee(MaClasseMere1, MaClasseMere2):
