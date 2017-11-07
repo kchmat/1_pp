@@ -1,0 +1,17 @@
+# -*- coding: utf-8 -*-
+class Personne:
+    def __init__(self):
+        self.nom="Amine"
+        self.prenom = "Jean" # Quelle originalité
+        self.age = 33 # Cela n'engage à rien
+        self.lieu_residence = "Paris"
+        
+        
+        ================================================================
+        #######main.py##############################
+# Hello World program in Python
+import maclass
+print "Hello World!\n"
+Mapersonne=maclass.Personne()
+print(Mapersonne.nom)
+print(Mapersonne.age)
