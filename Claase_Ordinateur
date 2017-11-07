@@ -1,0 +1,10 @@
+# -*- coding: utf-8 -*-
+class Ordin:
+    var=0
+    def __init__(self,ip,nom,dns):
+        self.ip=ip
+        self.nom=nom
+        self.dns=dns
+    def ChangerIP(self,ip):
+        self.ip=ip
+        
