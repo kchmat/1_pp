@@ -1,1 +1,6 @@
 #mon playbook
+
+#utilisation d'un module ansible :
+##############################exemple#########################
+- module_name: parameters
+##############################################################
