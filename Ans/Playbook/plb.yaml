@@ -1,0 +1,5 @@
+---
+- hosts: WEB
+  sudo: yes
+  tasks:
+    - shell: echo Hello World > /tmp/hello.txt
